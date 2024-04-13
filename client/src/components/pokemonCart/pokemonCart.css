@@ -45,8 +45,8 @@
 }
 
 .wrapper__trash img {
-    display: block;
-    width: 80px;
+  display: block;
+  width: 80px;
 }
 
 img.hidden {
@@ -63,7 +63,6 @@ img.hidden {
 .pokemon img {
   display: block;
 }
-
 
 .pokemon img:hover {
   transform: scale(1.3);
@@ -112,7 +111,6 @@ img.hidden {
   .cart {
     min-width: 315px;
   }
-
   .pokemon__cart {
     min-width: 450px;
   }

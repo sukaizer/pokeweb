@@ -97,7 +97,7 @@ const App = () => {
   };
 
   return (
-    <div className="padding">
+    <div className="">
       <img
         className="volume clickable"
         src={volumeState[0]}
@@ -112,7 +112,7 @@ const App = () => {
           <h1>PokéViewer</h1>
           <div className="search">
             <input
-              placeholder="Enter the Pokémon or their number"
+              placeholder="Enter Pokémon name / number"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               onKeyPress={handleKeypress}
